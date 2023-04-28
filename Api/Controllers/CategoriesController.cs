@@ -11,7 +11,7 @@ namespace Api.Controllers
         ICategoryRepository _categoryRepository;
         public CategoriesController(ICategoryRepository categoryRepository)
         {
-            _categoryRepository = categoryRepository;
+            _categoryRepository = categoryRepository ;
         }
 
         [HttpGet]
